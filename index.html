@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="dark">
+  <title>hi. — developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="stage">
+    <div class="greeting">
+      <h1 id="headline">hi.</h1>
+      <p id="tagline">developer — building things one line at a time</p>
+    </div>
+
+    <div id="scene" class="scene" aria-hidden="true">
+      <div class="window">
+        <div class="city">
+          <span class="city-light"></span>
+          <span class="city-light"></span>
+          <span class="city-light"></span>
+          <span class="city-light"></span>
+          <span class="city-light"></span>
+          <span class="city-light"></span>
+        </div>
+        <span class="moon"></span>
+      </div>
+
+      <div class="grid-floor"></div>
+
+      <div class="code-glyphs">
+        <span class="code-glyph glyph-one">&lt;/&gt;</span>
+        <span class="code-glyph glyph-two">{ }</span>
+        <span class="code-glyph glyph-three">const</span>
+        <span class="code-glyph glyph-four">=&gt;</span>
+        <span class="code-glyph glyph-five">npm run dev</span>
+      </div>
+
+      <div class="monitor">
+        <div class="screen-glow"></div>
+        <div class="monitor-screen">
+          <div class="monitor-bar">
+            <span class="dot dot-red"></span>
+            <span class="dot dot-amber"></span>
+            <span class="dot dot-green"></span>
+            <span class="tab">hi.js</span>
+          </div>
+          <div id="code-lines" class="code-lines">
+            <div class="code-line"><span class="kw">const</span> dev = { <span class="prop">name</span>: <span class="str">"you"</span>, <span class="prop">stack</span>: [<span class="str">"html"</span>, <span class="str">"css"</span>, <span class="str">"js"</span>] };</div>
+            <div class="code-line"><span class="kw">function</span> <span class="fn">sayHi</span>() {</div>
+            <div class="code-line">  console.<span class="fn">log</span>(<span class="str">"hi."</span>);</div>
+            <div class="code-line">}</div>
+            <div class="code-line"><span class="fn">sayHi</span>();</div>
+          </div>
+          <span id="cursor" class="cursor"></span>
+        </div>
+        <div class="monitor-stand"></div>
+      </div>
+
+      <div class="dev">
+        <div class="dev-head"></div>
+        <div class="dev-torso"></div>
+        <div class="dev-arm"></div>
+        <div class="dev-hand"></div>
+      </div>
+
+      <div class="desk">
+        <div class="notebook"></div>
+        <div class="keyboard">
+          <div class="key-row">
+            <span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span>
+          </div>
+          <div class="key-row">
+            <span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span><span class="key"></span>
+          </div>
+          <div class="key-row">
+            <span class="key space"></span>
+          </div>
+        </div>
+        <div class="mug">
+          <span class="steam"></span>
+          <span class="steam"></span>
+          <span class="steam"></span>
+        </div>
+        <div class="plant">
+          <span class="leaf leaf-one"></span>
+          <span class="leaf leaf-two"></span>
+          <span class="leaf leaf-three"></span>
+        </div>
+      </div>
+
+      <div id="particles" class="particles"></div>
+    </div>
+  </main>
+  <script src="app.js" defer></script>
+</body>
+</html>
